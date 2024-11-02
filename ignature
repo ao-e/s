@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <!-- Background (transparent) -->
+  <rect width="500" height="300" fill="none"/>
+  
+  <!-- Domain Text Boxes with adjusted colors -->
+  <rect x="40" y="40" width="120" height="40" rx="5" fill="#8B5CF6" opacity="0.85"/>
+  <text x="100" y="65" font-family="Arial" font-size="16" fill="currentColor" text-anchor="middle" class="text">DevOps</text>
+  
+  <rect x="40" y="130" width="120" height="40" rx="5" fill="#F472B6" opacity="0.85"/>
+  <text x="100" y="155" font-family="Arial" font-size="16" fill="currentColor" text-anchor="middle" class="text">Blockchain</text>
+  
+  <rect x="40" y="220" width="120" height="40" rx="5" fill="#4FD1C5" opacity="0.85"/>
+  <text x="100" y="245" font-family="Arial" font-size="16" fill="currentColor" text-anchor="middle" class="text">Network</text>
+
+  <!-- Engineer Box -->
+  <rect x="330" y="130" width="120" height="40" rx="5" fill="#60A5FA" opacity="0.85"/>
+  <text x="390" y="155" font-family="Arial" font-size="16" fill="currentColor" text-anchor="middle" class="text">Engineer</text>
+
+  <!-- Flowing Lines with gradient strokes -->
+  <path d="M160 60 C 280 60, 280 150, 330 150" stroke="#8B5CF6" fill="none" stroke-width="2.5" opacity="0.9"/>
+  <path d="M160 150 L330 150" stroke="#F472B6" fill="none" stroke-width="2.5" opacity="0.9"/>
+  <path d="M160 240 C 280 240, 280 150, 330 150" stroke="#4FD1C5" fill="none" stroke-width="2.5" opacity="0.9"/>
+
+  <!-- Connection Points -->
+  <circle cx="160" cy="60" r="3.5" fill="#8B5CF6" opacity="0.9"/>
+  <circle cx="160" cy="150" r="3.5" fill="#F472B6" opacity="0.9"/>
+  <circle cx="160" cy="240" r="3.5" fill="#4FD1C5" opacity="0.9"/>
+  <circle cx="330" cy="150" r="3.5" fill="#60A5FA" opacity="0.9"/>
+</svg>
