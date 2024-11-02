@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" style="shape-rendering: geometricPrecision">
+  <rect width="1000" height="600" fill="none"/>
+  
+  <!-- Domain Text Boxes with adjusted colors and sharper edges -->
+  <rect x="80" y="80" width="240" height="80" rx="10" fill="#8B5CF6" opacity="0.85"/>
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="32" font-weight="500" fill="currentColor" text-anchor="middle" class="text">DevOps</text>
+  
+  <rect x="80" y="260" width="240" height="80" rx="10" fill="#F472B6" opacity="0.85"/>
+  <text x="200" y="310" font-family="Arial, sans-serif" font-size="32" font-weight="500" fill="currentColor" text-anchor="middle" class="text">Blockchain</text>
+  
+  <rect x="80" y="440" width="240" height="80" rx="10" fill="#4FD1C5" opacity="0.85"/>
+  <text x="200" y="490" font-family="Arial, sans-serif" font-size="32" font-weight="500" fill="currentColor" text-anchor="middle" class="text">Network</text>
+
+  <!-- Engineer Box -->
+  <rect x="660" y="260" width="240" height="80" rx="10" fill="#60A5FA" opacity="0.85"/>
+  <text x="780" y="310" font-family="Arial, sans-serif" font-size="32" font-weight="500" fill="currentColor" text-anchor="middle" class="text">Engineer</text>
+
+  <!-- Flowing Lines with sharper strokes -->
+  <path d="M320 120 C 560 120, 560 300, 660 300" stroke="#8B5CF6" fill="none" stroke-width="5" opacity="0.9"/>
+  <path d="M320 300 L660 300" stroke="#F472B6" fill="none" stroke-width="5" opacity="0.9"/>
+  <path d="M320 480 C 560 480, 560 300, 660 300" stroke="#4FD1C5" fill="none" stroke-width="5" opacity="0.9"/>
+
+  <!-- Connection Points -->
+  <circle cx="320" cy="120" r="7" fill="#8B5CF6" opacity="0.9"/>
+  <circle cx="320" cy="300" r="7" fill="#F472B6" opacity="0.9"/>
+  <circle cx="320" cy="480" r="7" fill="#4FD1C5" opacity="0.9"/>
+  <circle cx="660" cy="300" r="7" fill="#60A5FA" opacity="0.9"/>
+</svg>
